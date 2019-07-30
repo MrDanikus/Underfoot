@@ -15,4 +15,3 @@ async function connect(){
 			x0x323323 = res;
 	})
 }
-connect();

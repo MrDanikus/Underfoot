@@ -5,7 +5,7 @@ var cors = require('cors');
 var app = express();
 var SHA256 = require('./script/module/build/SHA256.min.js');
 
-var engines = require('consolidate');
+ 
 
 
 var whitelist = ['http://localhost:3000'];
@@ -21,9 +21,6 @@ var corsOptionsDelegate = function (req, callback) {
 var links = [];
 
 
-app.set('views', __dirname);
-app.engine('html', engines.mustache);
-app.set('view engine', 'html'); 
 
 const bodyParser = require('body-parser');
 var jsonParser = bodyParser.json()
@@ -62,7 +59,7 @@ app.post('/api/connect',cors(corsOptionsDelegate),function(req,res,next){
 
 
 
-app.listen(process.env.PORT || 4000, function(){
+app.listen(process.env.PORT || 3000, function(){
     console.log('Your node js server is running');
 });
 
