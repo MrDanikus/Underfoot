@@ -1,18 +1,19 @@
 #compass{
 	margin: 0 auto;
 	display: block;
+	width: 100%;
 }
 .caption{
 	text-align: justify;
 	width: min(60vw,60vh);
 	position: absolute;
-	top: calc(50vh - min(30vw,30vh));
-	right: calc(50vw - min(30vw,30vh));
+	top: calc(50vh - min(60vw,60vh)/2);
+	right: calc(50vw - min(60vw,60vh)/2);
 }
 #finding-text{
 	font-family: 'Squada One', cursive;
 
-	font-size: min(6.5vw,6.5vh);
+	font-size: min(6.5vh,6.5vw);
 	text-transform: uppercase;
 	background: -webkit-linear-gradient(bottom left, #5bbfaf 20%, #2b3c92 66%, #101d49);
 	background: -o-linear-gradient(bottom left, #5bbfaf 20%, #2b3c92 66%, #101d49);
