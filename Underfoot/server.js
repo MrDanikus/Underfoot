@@ -8,7 +8,7 @@ var SHA256 = require('./script/module/build/SHA256.min.js');
  
 
 
-var whitelist = ['http://localhost:3000'];
+var whitelist = ['http://localhost:3000','https://glacial-hamlet-30025.herokuapp.com'];
 var corsOptionsDelegate = function (req, callback) {
   var corsOptions;
   if (whitelist.indexOf(req.header('Origin')) !== -1) {
