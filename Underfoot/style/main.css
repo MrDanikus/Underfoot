@@ -11,11 +11,22 @@ body{
 	width: 100%;
 }
 .caption{
+
+	--wid: -webkit-min(60vw,60vh);
+	--wid: -moz-min(60vw,60vh);
+	--wid: min(60vw,60vh);
 	text-align: justify;
-	width: min(60vw,60vh);
+	width: var(--wid);
 	position: absolute;
-	margin-top: calc(50vh - min(60vw,60vh)/2);
-	margin-left: calc(50vw - min(60vw,60vh)/2);
+	margin-top: -webkit-calc(50vh - var(--wid) / 2);
+	margin-top: -moz-calc(50vh - var(--wid) / 2);
+	margin-top: calc(50vh - var(--wid) / 2);
+
+	margin-left: -webkit-calc(50vw - var(--wid) / 2);
+	margin-left: -moz-calc(50vw - var(--wid) / 2);
+	margin-left: calc(50vw - var(--wid) / 2);
+
+	
 }
 #finding-text{
 	font-family: 'Squada One', cursive;
