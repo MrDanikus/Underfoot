@@ -22,7 +22,6 @@ document.querySelector(".caption").style.setProperty('width',`${vmin(60)}px`);
 document.querySelector(".caption").style.setProperty('margin-top',`${vh(50) - vmin(60)/2}px`);
 document.querySelector(".caption").style.setProperty('margin-left',`${vw(50) - vmin(60/2)}px`);
 document.querySelector("#finding-text").style.setProperty('font-size',`${vmin(6.5)}px`);
-console.log(`${vmin(60)}px`);
 
 window.onresize = function(){
 	document.querySelector(".caption").style.setProperty('width',`${vmin(60)}px`);
