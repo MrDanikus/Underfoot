@@ -1,3 +1,8 @@
+body{
+	width: 100vw;
+	height: 100vh;
+}
+
 #compass{
 	position: relative;
 	top: 0;
@@ -9,8 +14,8 @@
 	text-align: justify;
 	width: min(60vw,60vh);
 	position: absolute;
-	top: calc(50vh - min(60vw,60vh)/2);
-	right: calc(50vw - min(60vw,60vh)/2);
+	margin-top: calc(50vh - min(60vw,60vh)/2);
+	margin-left: calc(50vw - min(60vw,60vh)/2);
 }
 #finding-text{
 	font-family: 'Squada One', cursive;
