@@ -12,26 +12,16 @@ body{
 }
 .caption{
 
-	--wid: -webkit-min(60vw,60vh);
-	--wid: -moz-min(60vw,60vh);
-	--wid: min(60vw,60vh);
 	text-align: justify;
-	width: var(--wid);
 	position: absolute;
-	margin-top: -webkit-calc(50vh - var(--wid) / 2);
-	margin-top: -moz-calc(50vh - var(--wid) / 2);
-	margin-top: calc(50vh - var(--wid) / 2);
 
-	margin-left: -webkit-calc(50vw - var(--wid) / 2);
-	margin-left: -moz-calc(50vw - var(--wid) / 2);
-	margin-left: calc(50vw - var(--wid) / 2);
 
 	
 }
 #finding-text{
 	font-family: 'Squada One', cursive;
 
-	font-size: min(6.5vh,6.5vw);
+	
 	text-transform: uppercase;
 	background: -webkit-linear-gradient(bottom left, #5bbfaf 20%, #2b3c92 66%, #101d49);
 	background: -o-linear-gradient(bottom left, #5bbfaf 20%, #2b3c92 66%, #101d49);
